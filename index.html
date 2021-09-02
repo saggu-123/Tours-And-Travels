@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour and Travles </title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+  <header>
+       <div class="main-nav">
+           <div class="logo">
+               <h1><span>T</span>RAVEL</h1>
+               <div id="menu-bar" class="fas fa-bars"></div>
+           </div>
+           <div class="navbar">
+               <a href="#home">Home</a>
+               <a href="#book">Book</a>
+               <a href="#packages">Packages</a>
+               <a href="#services">Services</a>
+               <a href="#gallery">Gallery</a>
+               <a href="#review">Reviews</a>
+               <a href="#contact">Contact</a>
+           </div>
+          <div class="login"> <i class='fas fa-user-alt'></i></div>
+       </div>
+    </header>
+
+<div class="login-form">
+   <i class="fa fa-times" id="close"></i>
+    <form  class="form"action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="Enter your Email">
+        <input type="password" class="box" placeholder="Enter your Password">
+        <input type="submit" value="login now" class="btn">
+        
+        <input   type="checkbox" id="remember"> 
+         <label   for="remember">remember me</label>
+        <p> forget password ? <a href="#">click here </a></p>
+        <p> don't have and account ? <a href="#">register now </a></p>
+    </form>
+</div>
+ <!-- home section starts here  -->
+ 
+<section  class="hero" id="home">
+ 
+        
+     <div class="content">
+         <h2> ADVENTURE IS WORTHWHILE</h2>
+         <P>Discover new places with us adventure awaits </P>
+         <button class="btn">Disvover Now</button>
+     </div>
+     <div class="video-container">
+         <div class="videos">
+            <video src="images/vid-1.mp4" loop autoplay muted></video>
+         </div>
+         <div class="videos">
+            <video src="images/vid-2.mp4" loop autoplay muted></video>
+         </div>
+       
+         <div class="videos">
+            <video src="images/vid-3.mp4" loop autoplay muted></video>
+         </div>
+       
+         <div class="videos">
+            <video src="images/vid-4.mp4" loop autoplay muted></video>
+         </div>
+       
+         <div class="videos">
+            <video src="images/vid-5.mp4" loop autoplay muted></video>
+         </div>
+       </div>
+       <div class="arrows">
+           <div class="left-slide"  onclick="plusSlides(-1)"> < </div>
+         <div class="right-slide"  onclick="plusSlides(1)"> > </div>
+       </div>
+      
+  </div>
+
+
+</section>
+<!-- book now section starts here -->
+<section id="book">
+    <div class="book">
+        <div class="headings">
+            <h4>BOOK NOW </h4>
+        </div>
+       <div class="book-content">
+          
+               <img src="images/book-img.svg">
+          
+         
+               <form> 
+                   <label for="whereto" >Where To</label>
+                   <input type="text" id="whereto" placeholder="Enter your destination">
+                   <label for="number">How Many</label>
+                   <input type="number" id="howmany" placeholder="Number of passengers">
+                   <label for="arrivals">Arrivals</label>
+                   <input type="date" id="arrivals">
+                   <label for="departure">Departure</label>
+                   <input type="date" id="departure">
+                <button class="sumbit" >Book Now </button>
+               </form>
+          
+       </div>
+    </div>
+</section>
+<!-- packages start here  -->
+<section  id="packages">
+    <div class="packages">
+        <div class="headings">
+            <h4> PACKAGES </h4>
+        </div>
+        <div class="packages-container">
+       <div class="package-box">
+            <img src="images/p-1.jpg">
+        <p><i class="fas fa-map-marker-alt"></i> Mumbai</p> 
+        <p class="p">Lorem ipsum, dolor sit amedolorum beatae rerum illo vitae inventore eum possiscipit vero ipsum nesciunt earum mollitia maiores deleniti dolorum optio in rer?</p>
+            <button class="book-now">Book Now</button>
+        </div> 
+
+        <div class="package-box">
+            <img src="images/p-2.jpg">
+        <p><i class="fas fa-map-marker-alt"></i> Hawai</p> 
+        <p class="p"  >Lorem ipsum, dolor sit amedolorum beatae rerum illo vitae inventore eum possiscipit vero ipsum nesciunt earum mollitia maiores deleniti dolorum optio in rer?</p>
+         <button class="book-now">Book Now</button>
+        </div> 
+        <div class="package-box">
+            <img src="images/p-3.jpg">
+        <p><i class="fas fa-map-marker-alt"></i> Hawai</p> 
+        <p class="p"  >Lorem ipsum, dolor sit amedolorum beatae rerum illo vitae inventore eum possiscipit vero ipsum nesciunt earum mollitia maiores deleniti dolorum optio in rer?</p>
+         <button class="book-now">Book Now</button>
+        </div> 
+
+        <div class="package-box">
+            <img src="images/p-4.jpg">
+        <p><i class="fas fa-map-marker-alt"></i> Paris</p> 
+        <p  class="p" >Lorem ipsum, dolor sit amedolorum beatae rerum illo vitae inventore eum possiscipit vero ipsum nesciunt earum mollitia maiores deleniti dolorum optio in rer?</p>
+           <button class="book-now">Book Now</button>
+        </div> 
+
+        <div class="package-box">
+            <img src="images/p-5.jpg">
+        <p><i class="fas fa-map-marker-alt"></i> Tokyo</p> 
+        <p  class="p" >Lorem ipsum, dolor sit amedolorum beatae rerum illo vitae inventore eum possiscipit vero ipsum nesciunt earum mollitia maiores deleniti dolorum optio in rer?</p>
+         <button class="book-now">Book Now</button>
+        </div> 
+
+        <div class="package-box">
+            <img src="images/p-6.jpg">
+        <p><i class="fas fa-map-marker-alt"></i> Egypt</p> 
+        <p  class="p" >Lorem ipsum, dolor sit amedolorum beatae rerum illo vitae inventore eum possiscipit vero ipsum nesciunt earum mollitia maiores deleniti dolorum optio in rer?</p>
+          <button class="book-now">Book Now</button>
+        </div> 
+    </div>
+</div>
+</section>
+
+ <!-- services -->
+ <section id="services">
+     <div class="services">
+        <div class="headings">
+            <h4> SERVICES </h4>
+        </div>
+        <div class="services-container">
+
+
+            <div class="service-box">
+                <div class="icon"><i class="fas fa-hotel"></i></div>
+                  
+                <h6>Affordable Hotels</h6>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At deleniti minima placeat earum rerum dicta iusto impedit quia ea deserunt. Architecto quam totam dignis.</p>
+            </div>
+
+            <div class="service-box">
+                <div class="icon"><i class="fas fa-utensils"></i></div>
+                  
+                <h6>Foods And Drinks</h6>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At deleniti minima placeat earum rerum dicta iusto impedit quia ea deserunt. Architecto quam totam dignis.</p>
+            </div>
+
+            <div class="service-box">
+                <div class="icon"><i class="fas fa-shield-alt"></i></div>
+                  
+                <h6>Fully Vaccinated</h6>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At deleniti minima placeat earum rerum dicta iusto impedit quia ea deserunt. Architecto quam totam dignis.</p>
+            </div>
+
+            <div class="service-box">
+                <div class="icon"><i class="fas fa-globe-americas"></i></div>
+                  
+                <h6>Around The World</h6>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At deleniti minima placeat earum rerum dicta iusto impedit quia ea deserunt. Architecto quam totam dignis.</p>
+            </div>
+
+            <div class="service-box">
+                <div class="icon"><i class="fas fa-plane"></i></div>
+                  
+                <h6>Fatest Travel </h6>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At deleniti minima placeat earum rerum dicta iusto impedit quia ea deserunt. Architecto quam totam dignis.</p>
+            </div>
+
+            <div class="service-box">
+                <div class="icon"><i class="fas fa-swimmer"></i></div>
+                  
+                <h6>Adventures</h6>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At deleniti minima placeat earum rerum dicta iusto impedit quia ea deserunt. Architecto quam totam dignis.</p>
+            </div>
+        </div>
+     </div>
+ </section>
+
+ <!-- gallery -->
+<section id="gallery">
+<div class="gallery">
+    <div class="headings">
+        <h4> GALLERY </h4>
+    </div>
+    <div class="gallery-container">
+        
+            <img class="gallery-img" src="images/g-1.jpg">
+            <img class="gallery-img" src="images/g-2.jpg">
+            <img class="gallery-img" src="images/g-3.jpg">
+            <img class="gallery-img" src="images/g-4.jpg">
+            <img class="gallery-img" src="images/g-5.jpg">
+            <img class="gallery-img" src="images/g-6.jpg">
+            <img class="gallery-img" src="images/g-7.jpg">
+            <img class="gallery-img" src="images/g-8.jpg">
+            <img class="gallery-img" src="images/g-9.jpg">
+     
+            
+      <div id="myModal" class="modal">
+            <span class="closeImg">&times;</span>
+          <img class="modal-content" id="img1">
+         </div>
+    </div>
+
+</div>
+
+    </section>
+<!-- reviews -->
+<section id="review">
+    <div class="gallery">
+        <div class="headings">
+            <h4> Reviews </h4>
+        </div>
+<div id="accordion">
+    <div class="panel"> <!-- first panel -->
+         <div class="header">DR.Rakesh sharma</div>
+         <div class="body">  
+            <p> <img src="images/pic1.png">
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita dolor libero natus assumenda asperiores veniam maiores minima quis culpa! Deleniti amet inventore quasi eligendi nulla sed quisquam non. Omnis, consequuntur!
+                Quam voluptate quas hic consectetur tempora debitis corrupti reprehenderit a sit, facilis tenetur maxime ipsum vitae atque modi molestiae at blanditiis minus, cum sequi nostrum sint. In assumenda quam nisi!</p>
+         </div>
+    </div>
+    <div class="panel"> <!-- first panel -->
+        <div class="header">DR.Rakesh sharma</div>
+        <div class="body">  
+            <p>   <img src="images/pic2.png" >
+           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita dolor libero natus assumenda asperiores veniam maiores minima quis culpa! Deleniti amet inventore quasi eligendi nulla sed quisquam non. Omnis, consequuntur!
+               Quam voluptate quas hic consectetur tempora debitis corrupti reprehenderit a sit, facilis tenetur maxime ipsum vitae atque modi molestiae at blanditiis minus, cum sequi nostrum sint. In assumenda quam nisi!</p>
+        </div>
+   </div>
+   <div class="panel"> <!-- first panel -->
+    <div class="header">DR.Rakesh sharma</div>
+    <div class="body">  
+        <p> <img src="images/pic3.png">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita dolor libero natus assumenda asperiores veniam maiores minima quis culpa! Deleniti amet inventore quasi eligendi nulla sed quisquam non. Omnis, consequuntur!
+           Quam voluptate quas hic consectetur tempora debitis corrupti reprehenderit a sit, facilis tenetur maxime ipsum vitae atque modi molestiae at blanditiis minus, cum sequi nostrum sint. In assumenda quam nisi!</p>
+    </div>
+</div>
+    
+</div>
+</div>  
+</section>
+
+        
+<!-- contact -->
+<section id="contact">
+    <div class="contact">
+        <div class="headings">
+            <h4> CONTACT US  </h4>
+        </div>
+     <div class="contact-container">
+         <img src="images/contact-img.svg">
+         <div class="contact-box">
+            <form> 
+               <input type="text" id="name" placeholder="Name">
+               <input type="email" id="email" placeholder="Email">
+               <input type="number" id="number" placeholder="Number">
+               <input type="text" id="sumbit" placeholder="Sumbit">
+               <textarea placeholder="Message" id="message"> </textarea>
+             <button class="sumbit" >Send Message</button>
+            </form>
+         </div>
+     </div>
+   
+</section>
+
+   <!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est accusantium voluptas enim nemo facilis sit debitis.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit">  all rights reserved! </h1>
+
+</section>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+  
+  
+  
+  
+    
+
+    <script src="js/app.js"></script>
+</body>
+</html>
